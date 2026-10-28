@@ -1,0 +1,4 @@
+scenario_id,status,num_options,num_pairs,is_consistent,cycle_triads,order_stability_rate,prompt_stability_rate,overall_stability_rate,human_winner,consistent_predicted_winner,consistent_human_agreement,aggregated_predicted_winner,aggregated_human_agreement,predicted_winner,human_agreement,error
+PILOT_01,success,3,3,True,0,66.67,66.67,66.67,,,,,,,,
+PILOT_02,success,3,3,True,0,100.0,100.0,100.0,,,,,,,,
+PILOT_03,success,3,3,True,0,100.0,100.0,100.0,,,,,,,,

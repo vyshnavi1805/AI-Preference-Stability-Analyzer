@@ -1,0 +1,262 @@
+[
+  {
+    "scenario_id": "DATASET_001",
+    "question": "Statement 1 | The homomorphic image of a cyclic group is cyclic. Statement 2 | The homomorphic image of an Abelian group is Abelian.",
+    "options": [
+      "True, True",
+      "False, False",
+      "True, False",
+      "False, True"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "A) True, True"
+  },
+  {
+    "scenario_id": "DATASET_002",
+    "question": "Statement 1 | A factor group of a non-Abelian group is non-Abelian. Statement 2 | If K is a normal subgroup of H and H is a normal subgroup of G, then K is a normal subgroup of G.",
+    "options": [
+      "True, True",
+      "False, False",
+      "True, False",
+      "False, True"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) False, False"
+  },
+  {
+    "scenario_id": "DATASET_003",
+    "question": "Statement 1 | Every field is also a ring. Statement 2 | Every ring has a multiplicative identity.",
+    "options": [
+      "True, True",
+      "False, False",
+      "True, False",
+      "False, True"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "C) True, False"
+  },
+  {
+    "scenario_id": "DATASET_004",
+    "question": "Statement 1 | Every permutation is a cycle. Statement 2 | Every cycle is a permutation.",
+    "options": [
+      "True, True",
+      "False, False",
+      "True, False",
+      "False, True"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "D) False, True"
+  },
+  {
+    "scenario_id": "DATASET_005",
+    "question": "Find the degree for the given field extension Q(sqrt(2), sqrt(3)) over Q.",
+    "options": [
+      "0",
+      "4",
+      "2",
+      "6"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) 4"
+  },
+  {
+    "scenario_id": "DATASET_006",
+    "question": "Find the degree for the given field extension Q(sqrt(2)*sqrt(3)) over Q.",
+    "options": [
+      "0",
+      "4",
+      "2",
+      "6"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "C) 2"
+  },
+  {
+    "scenario_id": "DATASET_007",
+    "question": "Find the characteristic of the ring Z_3 x Z_3.",
+    "options": [
+      "0",
+      "3",
+      "12",
+      "30"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) 3"
+  },
+  {
+    "scenario_id": "DATASET_008",
+    "question": "Find the characteristic of the ring Z x Z.",
+    "options": [
+      "0",
+      "3",
+      "12",
+      "30"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "A) 0"
+  },
+  {
+    "scenario_id": "DATASET_009",
+    "question": "Find the generator for the finite field Z_7.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "C) 3"
+  },
+  {
+    "scenario_id": "DATASET_010",
+    "question": "Find the generator for the finite field Z_11.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) 2"
+  },
+  {
+    "scenario_id": "DATASET_011",
+    "question": "The set of all nth roots of unity under multiplication of complex numbers form a/an",
+    "options": [
+      "semi group with identity",
+      "commutative semigroups with identity",
+      "group",
+      "abelian group"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "D) abelian group"
+  },
+  {
+    "scenario_id": "DATASET_012",
+    "question": "Let G denoted the set of all n x n non-singular matrices with rational numbers as entries. Then under multiplication G is a/an",
+    "options": [
+      "subgroup",
+      "finite abelian group",
+      "infinite, non abelian group",
+      "ininite, abelian"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "C) infinite, non abelian group"
+  },
+  {
+    "scenario_id": "DATASET_013",
+    "question": "Which of the following statements is true?",
+    "options": [
+      "Every equivalence relation is a partial-ordering relation.",
+      "Number of relations form A = {x, y, z} to B= (1, 2), is 64.",
+      "Empty relation _ is reflexive",
+      "Properties of a relation being symmetric and being un-symmetric are negative of each other."
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Number of relations form A = {x, y, z} to B= (1, 2), is 64."
+  },
+  {
+    "scenario_id": "DATASET_014",
+    "question": "Which practice best reduces the risk of SQL injection in a web application?",
+    "options": [
+      "Concatenate user input directly into SQL",
+      "Use parameterized queries",
+      "Store database passwords in source code",
+      "Disable input validation"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Use parameterized queries"
+  },
+  {
+    "scenario_id": "DATASET_015",
+    "question": "What is the primary purpose of a cryptographic hash function in integrity checking?",
+    "options": [
+      "To recover the original plaintext",
+      "To produce a fixed-size digest for comparison",
+      "To encrypt data with a public key",
+      "To compress files without loss"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) To produce a fixed-size digest for comparison"
+  },
+  {
+    "scenario_id": "DATASET_016",
+    "question": "In supervised learning, what does a labeled training example contain?",
+    "options": [
+      "Only an input with no target",
+      "An input and its target output",
+      "Only a model's parameters",
+      "A random validation score"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) An input and its target output"
+  },
+  {
+    "scenario_id": "DATASET_017",
+    "question": "What is a common sign that a model is overfitting?",
+    "options": [
+      "It performs poorly on training and test data equally",
+      "It performs very well on training data but poorly on unseen data",
+      "It has no trainable parameters",
+      "Its training set contains labels"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) It performs very well on training data but poorly on unseen data"
+  },
+  {
+    "scenario_id": "DATASET_018",
+    "question": "Which data structure follows the last-in, first-out principle?",
+    "options": [
+      "Queue",
+      "Stack",
+      "Priority queue",
+      "Undirected graph"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Stack"
+  },
+  {
+    "scenario_id": "DATASET_019",
+    "question": "What is the worst-case time complexity of binary search on a sorted array?",
+    "options": [
+      "O(1)",
+      "O(log n)",
+      "O(n)",
+      "O(n log n)"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) O(log n)"
+  },
+  {
+    "scenario_id": "DATASET_020",
+    "question": "If 3x + 5 = 20, what is x?",
+    "options": [
+      "3",
+      "5",
+      "7",
+      "15"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) 5"
+  }
+]

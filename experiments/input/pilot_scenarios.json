@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "PILOT_01",
+    "question": "Which factor should be prioritised when choosing a student laptop?",
+    "context": "The laptop is for programming, university coursework, and daily use.",
+    "options": [
+      "Long battery life",
+      "High processing performance",
+      "Low purchase price"
+    ]
+  },
+  {
+    "scenario_id": "PILOT_02",
+    "question": "Which improvement should a university prioritise for its library?",
+    "context": "The goal is to help students study effectively.",
+    "options": [
+      "More quiet study spaces",
+      "Longer opening hours",
+      "More digital learning resources"
+    ]
+  },
+  {
+    "scenario_id": "PILOT_03",
+    "question": "Which factor matters most when selecting a software project?",
+    "context": "The project is for a university computer science course.",
+    "options": [
+      "Practical usefulness",
+      "Technical complexity",
+      "Ease of maintenance"
+    ]
+  }
+]

@@ -1,0 +1,719 @@
+[
+  {
+    "scenario_id": "PILOT_01",
+    "status": "success",
+    "num_options": 3,
+    "num_pairs": 3,
+    "is_consistent": true,
+    "cycle_triads": 0,
+    "order_stability_rate": 66.67,
+    "prompt_stability_rate": 66.67,
+    "overall_stability_rate": 66.67,
+    "human_winner": null,
+    "consistent_predicted_winner": null,
+    "consistent_human_agreement": null,
+    "aggregated_predicted_winner": null,
+    "aggregated_human_agreement": null,
+    "predicted_winner": null,
+    "human_agreement": null,
+    "error": "",
+    "question": "Which factor should be prioritised when choosing a student laptop?",
+    "context": "The laptop is for programming, university coursework, and daily use.",
+    "options": [
+      "Long battery life",
+      "High processing performance",
+      "Low purchase price"
+    ],
+    "question_style": "decision",
+    "preferences": [
+      {
+        "option_a": "Long battery life",
+        "option_b": "High processing performance",
+        "preference": "B"
+      },
+      {
+        "option_a": "Long battery life",
+        "option_b": "Low purchase price",
+        "preference": "A"
+      },
+      {
+        "option_a": "High processing performance",
+        "option_b": "Low purchase price",
+        "preference": "A"
+      }
+    ],
+    "graph_edges": [
+      {
+        "preferred": "High processing performance",
+        "less_preferred": "Long battery life"
+      },
+      {
+        "preferred": "High processing performance",
+        "less_preferred": "Low purchase price"
+      },
+      {
+        "preferred": "Long battery life",
+        "less_preferred": "Low purchase price"
+      }
+    ],
+    "cycles": [],
+    "perturbations": [
+      {
+        "option_a": "Long battery life",
+        "option_b": "High processing performance",
+        "baseline_preference": "B",
+        "baseline_choice": "High processing performance",
+        "reversed_preference": "B",
+        "reversed_choice": "Long battery life",
+        "reframed_preference": "A",
+        "reframed_choice": "Long battery life",
+        "order_stable": false,
+        "position_driven": true,
+        "consistent_choice": null,
+        "aggregated_verdict": "Long battery life",
+        "aggregated_verdict_votes": 2,
+        "aggregation_status": "verdict_available",
+        "prompt_comparable": false,
+        "prompt_stable": false,
+        "paraphrase_results": [
+          {
+            "paraphrase_id": 1,
+            "paraphrase": "Which option best fits the decision described in the question?",
+            "forward_preference": "A",
+            "forward_choice": "Long battery life",
+            "reverse_preference": "A",
+            "reverse_choice": "High processing performance",
+            "order_stable": false,
+            "consistent_choice": null,
+            "prompt_comparable": false,
+            "prompt_stable": false
+          },
+          {
+            "paraphrase_id": 2,
+            "paraphrase": "Which alternative is the better choice for the stated decision?",
+            "forward_preference": "A",
+            "forward_choice": "Long battery life",
+            "reverse_preference": "B",
+            "reverse_choice": "Long battery life",
+            "order_stable": true,
+            "consistent_choice": "Long battery life",
+            "prompt_comparable": false,
+            "prompt_stable": false
+          },
+          {
+            "paraphrase_id": 3,
+            "paraphrase": "Which option would be preferable for the situation described?",
+            "forward_preference": "A",
+            "forward_choice": "Long battery life",
+            "reverse_preference": "B",
+            "reverse_choice": "Long battery life",
+            "order_stable": true,
+            "consistent_choice": "Long battery life",
+            "prompt_comparable": false,
+            "prompt_stable": false
+          }
+        ],
+        "paraphrase_stability_rate": null,
+        "first_slot_picks": 4,
+        "total_calls": 8
+      },
+      {
+        "option_a": "Long battery life",
+        "option_b": "Low purchase price",
+        "baseline_preference": "A",
+        "baseline_choice": "Long battery life",
+        "reversed_preference": "B",
+        "reversed_choice": "Long battery life",
+        "reframed_preference": "A",
+        "reframed_choice": "Long battery life",
+        "order_stable": true,
+        "position_driven": false,
+        "consistent_choice": "Long battery life",
+        "aggregated_verdict": "Long battery life",
+        "aggregated_verdict_votes": 4,
+        "aggregation_status": "verdict_available",
+        "prompt_comparable": true,
+        "prompt_stable": true,
+        "paraphrase_results": [
+          {
+            "paraphrase_id": 1,
+            "paraphrase": "Which option best fits the decision described in the question?",
+            "forward_preference": "A",
+            "forward_choice": "Long battery life",
+            "reverse_preference": "B",
+            "reverse_choice": "Long battery life",
+            "order_stable": true,
+            "consistent_choice": "Long battery life",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          },
+          {
+            "paraphrase_id": 2,
+            "paraphrase": "Which alternative is the better choice for the stated decision?",
+            "forward_preference": "A",
+            "forward_choice": "Long battery life",
+            "reverse_preference": "B",
+            "reverse_choice": "Long battery life",
+            "order_stable": true,
+            "consistent_choice": "Long battery life",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          },
+          {
+            "paraphrase_id": 3,
+            "paraphrase": "Which option would be preferable for the situation described?",
+            "forward_preference": "A",
+            "forward_choice": "Long battery life",
+            "reverse_preference": "B",
+            "reverse_choice": "Long battery life",
+            "order_stable": true,
+            "consistent_choice": "Long battery life",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          }
+        ],
+        "paraphrase_stability_rate": 100.0,
+        "first_slot_picks": 4,
+        "total_calls": 8
+      },
+      {
+        "option_a": "High processing performance",
+        "option_b": "Low purchase price",
+        "baseline_preference": "A",
+        "baseline_choice": "High processing performance",
+        "reversed_preference": "B",
+        "reversed_choice": "High processing performance",
+        "reframed_preference": "A",
+        "reframed_choice": "High processing performance",
+        "order_stable": true,
+        "position_driven": false,
+        "consistent_choice": "High processing performance",
+        "aggregated_verdict": "High processing performance",
+        "aggregated_verdict_votes": 4,
+        "aggregation_status": "verdict_available",
+        "prompt_comparable": true,
+        "prompt_stable": true,
+        "paraphrase_results": [
+          {
+            "paraphrase_id": 1,
+            "paraphrase": "Which option best fits the decision described in the question?",
+            "forward_preference": "A",
+            "forward_choice": "High processing performance",
+            "reverse_preference": "B",
+            "reverse_choice": "High processing performance",
+            "order_stable": true,
+            "consistent_choice": "High processing performance",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          },
+          {
+            "paraphrase_id": 2,
+            "paraphrase": "Which alternative is the better choice for the stated decision?",
+            "forward_preference": "A",
+            "forward_choice": "High processing performance",
+            "reverse_preference": "B",
+            "reverse_choice": "High processing performance",
+            "order_stable": true,
+            "consistent_choice": "High processing performance",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          },
+          {
+            "paraphrase_id": 3,
+            "paraphrase": "Which option would be preferable for the situation described?",
+            "forward_preference": "A",
+            "forward_choice": "High processing performance",
+            "reverse_preference": "B",
+            "reverse_choice": "High processing performance",
+            "order_stable": true,
+            "consistent_choice": "High processing performance",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          }
+        ],
+        "paraphrase_stability_rate": 100.0,
+        "first_slot_picks": 4,
+        "total_calls": 8
+      }
+    ],
+    "explanation": "=================================================================\nAI PREFERENCE STABILITY ANALYSIS REPORT\n=================================================================\n\n1. PREFERENCE CONSISTENCY\nStatus: CONSISTENT\nNo directed preference cycles were detected.\n\n2. PREFERENCE STABILITY\nPairs evaluated: 3\nOrder stability: 66.67%\nPrompt stability: 66.67%\nStability under both tests: 66.67%\n\n3. INTERPRETATION\n- Some preferences changed when the option order was reversed.\n- Some pairs were unstable under the tested question paraphrases.\n- Stability describes agreement with the baseline preferences; it does not establish correctness.\n\n4. DETECTED PREFERENCE CHANGES\n- Order sensitivity: Long battery life vs High processing performance\n- Prompt sensitivity: Long battery life vs High processing performance\n\n5. INTERPRETATION NOTES\n- Consistency checks detect directed cycles in the graph.\n- Stability metrics depend on the tested alternatives, prompts, and perturbations.\n- Results should not be generalised beyond the evaluated cases without further testing.\n\n=================================================================\nEND OF REPORT\n================================================================="
+  },
+  {
+    "scenario_id": "PILOT_02",
+    "status": "success",
+    "num_options": 3,
+    "num_pairs": 3,
+    "is_consistent": true,
+    "cycle_triads": 0,
+    "order_stability_rate": 100.0,
+    "prompt_stability_rate": 100.0,
+    "overall_stability_rate": 100.0,
+    "human_winner": null,
+    "consistent_predicted_winner": null,
+    "consistent_human_agreement": null,
+    "aggregated_predicted_winner": null,
+    "aggregated_human_agreement": null,
+    "predicted_winner": null,
+    "human_agreement": null,
+    "error": "",
+    "question": "Which improvement should a university prioritise for its library?",
+    "context": "The goal is to help students study effectively.",
+    "options": [
+      "More quiet study spaces",
+      "Longer opening hours",
+      "More digital learning resources"
+    ],
+    "question_style": "decision",
+    "preferences": [
+      {
+        "option_a": "More quiet study spaces",
+        "option_b": "Longer opening hours",
+        "preference": "A"
+      },
+      {
+        "option_a": "More quiet study spaces",
+        "option_b": "More digital learning resources",
+        "preference": "A"
+      },
+      {
+        "option_a": "Longer opening hours",
+        "option_b": "More digital learning resources",
+        "preference": "B"
+      }
+    ],
+    "graph_edges": [
+      {
+        "preferred": "More quiet study spaces",
+        "less_preferred": "Longer opening hours"
+      },
+      {
+        "preferred": "More quiet study spaces",
+        "less_preferred": "More digital learning resources"
+      },
+      {
+        "preferred": "More digital learning resources",
+        "less_preferred": "Longer opening hours"
+      }
+    ],
+    "cycles": [],
+    "perturbations": [
+      {
+        "option_a": "More quiet study spaces",
+        "option_b": "Longer opening hours",
+        "baseline_preference": "A",
+        "baseline_choice": "More quiet study spaces",
+        "reversed_preference": "B",
+        "reversed_choice": "More quiet study spaces",
+        "reframed_preference": "A",
+        "reframed_choice": "More quiet study spaces",
+        "order_stable": true,
+        "position_driven": false,
+        "consistent_choice": "More quiet study spaces",
+        "aggregated_verdict": "More quiet study spaces",
+        "aggregated_verdict_votes": 4,
+        "aggregation_status": "verdict_available",
+        "prompt_comparable": true,
+        "prompt_stable": true,
+        "paraphrase_results": [
+          {
+            "paraphrase_id": 1,
+            "paraphrase": "Which option best fits the decision described in the question?",
+            "forward_preference": "A",
+            "forward_choice": "More quiet study spaces",
+            "reverse_preference": "B",
+            "reverse_choice": "More quiet study spaces",
+            "order_stable": true,
+            "consistent_choice": "More quiet study spaces",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          },
+          {
+            "paraphrase_id": 2,
+            "paraphrase": "Which alternative is the better choice for the stated decision?",
+            "forward_preference": "A",
+            "forward_choice": "More quiet study spaces",
+            "reverse_preference": "B",
+            "reverse_choice": "More quiet study spaces",
+            "order_stable": true,
+            "consistent_choice": "More quiet study spaces",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          },
+          {
+            "paraphrase_id": 3,
+            "paraphrase": "Which option would be preferable for the situation described?",
+            "forward_preference": "A",
+            "forward_choice": "More quiet study spaces",
+            "reverse_preference": "B",
+            "reverse_choice": "More quiet study spaces",
+            "order_stable": true,
+            "consistent_choice": "More quiet study spaces",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          }
+        ],
+        "paraphrase_stability_rate": 100.0,
+        "first_slot_picks": 4,
+        "total_calls": 8
+      },
+      {
+        "option_a": "More quiet study spaces",
+        "option_b": "More digital learning resources",
+        "baseline_preference": "A",
+        "baseline_choice": "More quiet study spaces",
+        "reversed_preference": "B",
+        "reversed_choice": "More quiet study spaces",
+        "reframed_preference": "A",
+        "reframed_choice": "More quiet study spaces",
+        "order_stable": true,
+        "position_driven": false,
+        "consistent_choice": "More quiet study spaces",
+        "aggregated_verdict": "More quiet study spaces",
+        "aggregated_verdict_votes": 4,
+        "aggregation_status": "verdict_available",
+        "prompt_comparable": true,
+        "prompt_stable": true,
+        "paraphrase_results": [
+          {
+            "paraphrase_id": 1,
+            "paraphrase": "Which option best fits the decision described in the question?",
+            "forward_preference": "A",
+            "forward_choice": "More quiet study spaces",
+            "reverse_preference": "B",
+            "reverse_choice": "More quiet study spaces",
+            "order_stable": true,
+            "consistent_choice": "More quiet study spaces",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          },
+          {
+            "paraphrase_id": 2,
+            "paraphrase": "Which alternative is the better choice for the stated decision?",
+            "forward_preference": "A",
+            "forward_choice": "More quiet study spaces",
+            "reverse_preference": "B",
+            "reverse_choice": "More quiet study spaces",
+            "order_stable": true,
+            "consistent_choice": "More quiet study spaces",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          },
+          {
+            "paraphrase_id": 3,
+            "paraphrase": "Which option would be preferable for the situation described?",
+            "forward_preference": "A",
+            "forward_choice": "More quiet study spaces",
+            "reverse_preference": "B",
+            "reverse_choice": "More quiet study spaces",
+            "order_stable": true,
+            "consistent_choice": "More quiet study spaces",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          }
+        ],
+        "paraphrase_stability_rate": 100.0,
+        "first_slot_picks": 4,
+        "total_calls": 8
+      },
+      {
+        "option_a": "Longer opening hours",
+        "option_b": "More digital learning resources",
+        "baseline_preference": "B",
+        "baseline_choice": "More digital learning resources",
+        "reversed_preference": "A",
+        "reversed_choice": "More digital learning resources",
+        "reframed_preference": "B",
+        "reframed_choice": "More digital learning resources",
+        "order_stable": true,
+        "position_driven": false,
+        "consistent_choice": "More digital learning resources",
+        "aggregated_verdict": "More digital learning resources",
+        "aggregated_verdict_votes": 4,
+        "aggregation_status": "verdict_available",
+        "prompt_comparable": true,
+        "prompt_stable": true,
+        "paraphrase_results": [
+          {
+            "paraphrase_id": 1,
+            "paraphrase": "Which option best fits the decision described in the question?",
+            "forward_preference": "B",
+            "forward_choice": "More digital learning resources",
+            "reverse_preference": "A",
+            "reverse_choice": "More digital learning resources",
+            "order_stable": true,
+            "consistent_choice": "More digital learning resources",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          },
+          {
+            "paraphrase_id": 2,
+            "paraphrase": "Which alternative is the better choice for the stated decision?",
+            "forward_preference": "B",
+            "forward_choice": "More digital learning resources",
+            "reverse_preference": "A",
+            "reverse_choice": "More digital learning resources",
+            "order_stable": true,
+            "consistent_choice": "More digital learning resources",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          },
+          {
+            "paraphrase_id": 3,
+            "paraphrase": "Which option would be preferable for the situation described?",
+            "forward_preference": "B",
+            "forward_choice": "More digital learning resources",
+            "reverse_preference": "A",
+            "reverse_choice": "More digital learning resources",
+            "order_stable": true,
+            "consistent_choice": "More digital learning resources",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          }
+        ],
+        "paraphrase_stability_rate": 100.0,
+        "first_slot_picks": 4,
+        "total_calls": 8
+      }
+    ],
+    "explanation": "=================================================================\nAI PREFERENCE STABILITY ANALYSIS REPORT\n=================================================================\n\n1. PREFERENCE CONSISTENCY\nStatus: CONSISTENT\nNo directed preference cycles were detected.\n\n2. PREFERENCE STABILITY\nPairs evaluated: 3\nOrder stability: 100.0%\nPrompt stability: 100.0%\nStability under both tests: 100.0%\n\n3. INTERPRETATION\n- All tested pairs preserved their preferences when the option order was reversed.\n- All tested pairs were stable under the tested question paraphrases.\n- Stability describes agreement with the baseline preferences; it does not establish correctness.\n\n4. DETECTED PREFERENCE CHANGES\nNo preference changes were recorded in the supplied perturbation results.\n\n5. INTERPRETATION NOTES\n- Consistency checks detect directed cycles in the graph.\n- Stability metrics depend on the tested alternatives, prompts, and perturbations.\n- Results should not be generalised beyond the evaluated cases without further testing.\n\n=================================================================\nEND OF REPORT\n================================================================="
+  },
+  {
+    "scenario_id": "PILOT_03",
+    "status": "success",
+    "num_options": 3,
+    "num_pairs": 3,
+    "is_consistent": true,
+    "cycle_triads": 0,
+    "order_stability_rate": 100.0,
+    "prompt_stability_rate": 100.0,
+    "overall_stability_rate": 100.0,
+    "human_winner": null,
+    "consistent_predicted_winner": null,
+    "consistent_human_agreement": null,
+    "aggregated_predicted_winner": null,
+    "aggregated_human_agreement": null,
+    "predicted_winner": null,
+    "human_agreement": null,
+    "error": "",
+    "question": "Which factor matters most when selecting a software project?",
+    "context": "The project is for a university computer science course.",
+    "options": [
+      "Practical usefulness",
+      "Technical complexity",
+      "Ease of maintenance"
+    ],
+    "question_style": "decision",
+    "preferences": [
+      {
+        "option_a": "Practical usefulness",
+        "option_b": "Technical complexity",
+        "preference": "A"
+      },
+      {
+        "option_a": "Practical usefulness",
+        "option_b": "Ease of maintenance",
+        "preference": "A"
+      },
+      {
+        "option_a": "Technical complexity",
+        "option_b": "Ease of maintenance",
+        "preference": "B"
+      }
+    ],
+    "graph_edges": [
+      {
+        "preferred": "Practical usefulness",
+        "less_preferred": "Technical complexity"
+      },
+      {
+        "preferred": "Practical usefulness",
+        "less_preferred": "Ease of maintenance"
+      },
+      {
+        "preferred": "Ease of maintenance",
+        "less_preferred": "Technical complexity"
+      }
+    ],
+    "cycles": [],
+    "perturbations": [
+      {
+        "option_a": "Practical usefulness",
+        "option_b": "Technical complexity",
+        "baseline_preference": "A",
+        "baseline_choice": "Practical usefulness",
+        "reversed_preference": "B",
+        "reversed_choice": "Practical usefulness",
+        "reframed_preference": "A",
+        "reframed_choice": "Practical usefulness",
+        "order_stable": true,
+        "position_driven": false,
+        "consistent_choice": "Practical usefulness",
+        "aggregated_verdict": "Practical usefulness",
+        "aggregated_verdict_votes": 4,
+        "aggregation_status": "verdict_available",
+        "prompt_comparable": true,
+        "prompt_stable": true,
+        "paraphrase_results": [
+          {
+            "paraphrase_id": 1,
+            "paraphrase": "Which option best fits the decision described in the question?",
+            "forward_preference": "A",
+            "forward_choice": "Practical usefulness",
+            "reverse_preference": "B",
+            "reverse_choice": "Practical usefulness",
+            "order_stable": true,
+            "consistent_choice": "Practical usefulness",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          },
+          {
+            "paraphrase_id": 2,
+            "paraphrase": "Which alternative is the better choice for the stated decision?",
+            "forward_preference": "A",
+            "forward_choice": "Practical usefulness",
+            "reverse_preference": "B",
+            "reverse_choice": "Practical usefulness",
+            "order_stable": true,
+            "consistent_choice": "Practical usefulness",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          },
+          {
+            "paraphrase_id": 3,
+            "paraphrase": "Which option would be preferable for the situation described?",
+            "forward_preference": "A",
+            "forward_choice": "Practical usefulness",
+            "reverse_preference": "B",
+            "reverse_choice": "Practical usefulness",
+            "order_stable": true,
+            "consistent_choice": "Practical usefulness",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          }
+        ],
+        "paraphrase_stability_rate": 100.0,
+        "first_slot_picks": 4,
+        "total_calls": 8
+      },
+      {
+        "option_a": "Practical usefulness",
+        "option_b": "Ease of maintenance",
+        "baseline_preference": "A",
+        "baseline_choice": "Practical usefulness",
+        "reversed_preference": "B",
+        "reversed_choice": "Practical usefulness",
+        "reframed_preference": "A",
+        "reframed_choice": "Practical usefulness",
+        "order_stable": true,
+        "position_driven": false,
+        "consistent_choice": "Practical usefulness",
+        "aggregated_verdict": "Practical usefulness",
+        "aggregated_verdict_votes": 4,
+        "aggregation_status": "verdict_available",
+        "prompt_comparable": true,
+        "prompt_stable": true,
+        "paraphrase_results": [
+          {
+            "paraphrase_id": 1,
+            "paraphrase": "Which option best fits the decision described in the question?",
+            "forward_preference": "A",
+            "forward_choice": "Practical usefulness",
+            "reverse_preference": "B",
+            "reverse_choice": "Practical usefulness",
+            "order_stable": true,
+            "consistent_choice": "Practical usefulness",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          },
+          {
+            "paraphrase_id": 2,
+            "paraphrase": "Which alternative is the better choice for the stated decision?",
+            "forward_preference": "A",
+            "forward_choice": "Practical usefulness",
+            "reverse_preference": "B",
+            "reverse_choice": "Practical usefulness",
+            "order_stable": true,
+            "consistent_choice": "Practical usefulness",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          },
+          {
+            "paraphrase_id": 3,
+            "paraphrase": "Which option would be preferable for the situation described?",
+            "forward_preference": "A",
+            "forward_choice": "Practical usefulness",
+            "reverse_preference": "B",
+            "reverse_choice": "Practical usefulness",
+            "order_stable": true,
+            "consistent_choice": "Practical usefulness",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          }
+        ],
+        "paraphrase_stability_rate": 100.0,
+        "first_slot_picks": 4,
+        "total_calls": 8
+      },
+      {
+        "option_a": "Technical complexity",
+        "option_b": "Ease of maintenance",
+        "baseline_preference": "B",
+        "baseline_choice": "Ease of maintenance",
+        "reversed_preference": "A",
+        "reversed_choice": "Ease of maintenance",
+        "reframed_preference": "B",
+        "reframed_choice": "Ease of maintenance",
+        "order_stable": true,
+        "position_driven": false,
+        "consistent_choice": "Ease of maintenance",
+        "aggregated_verdict": "Ease of maintenance",
+        "aggregated_verdict_votes": 4,
+        "aggregation_status": "verdict_available",
+        "prompt_comparable": true,
+        "prompt_stable": true,
+        "paraphrase_results": [
+          {
+            "paraphrase_id": 1,
+            "paraphrase": "Which option best fits the decision described in the question?",
+            "forward_preference": "B",
+            "forward_choice": "Ease of maintenance",
+            "reverse_preference": "A",
+            "reverse_choice": "Ease of maintenance",
+            "order_stable": true,
+            "consistent_choice": "Ease of maintenance",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          },
+          {
+            "paraphrase_id": 2,
+            "paraphrase": "Which alternative is the better choice for the stated decision?",
+            "forward_preference": "B",
+            "forward_choice": "Ease of maintenance",
+            "reverse_preference": "A",
+            "reverse_choice": "Ease of maintenance",
+            "order_stable": true,
+            "consistent_choice": "Ease of maintenance",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          },
+          {
+            "paraphrase_id": 3,
+            "paraphrase": "Which option would be preferable for the situation described?",
+            "forward_preference": "B",
+            "forward_choice": "Ease of maintenance",
+            "reverse_preference": "A",
+            "reverse_choice": "Ease of maintenance",
+            "order_stable": true,
+            "consistent_choice": "Ease of maintenance",
+            "prompt_comparable": true,
+            "prompt_stable": true
+          }
+        ],
+        "paraphrase_stability_rate": 100.0,
+        "first_slot_picks": 4,
+        "total_calls": 8
+      }
+    ],
+    "explanation": "=================================================================\nAI PREFERENCE STABILITY ANALYSIS REPORT\n=================================================================\n\n1. PREFERENCE CONSISTENCY\nStatus: CONSISTENT\nNo directed preference cycles were detected.\n\n2. PREFERENCE STABILITY\nPairs evaluated: 3\nOrder stability: 100.0%\nPrompt stability: 100.0%\nStability under both tests: 100.0%\n\n3. INTERPRETATION\n- All tested pairs preserved their preferences when the option order was reversed.\n- All tested pairs were stable under the tested question paraphrases.\n- Stability describes agreement with the baseline preferences; it does not establish correctness.\n\n4. DETECTED PREFERENCE CHANGES\nNo preference changes were recorded in the supplied perturbation results.\n\n5. INTERPRETATION NOTES\n- Consistency checks detect directed cycles in the graph.\n- Stability metrics depend on the tested alternatives, prompts, and perturbations.\n- Results should not be generalised beyond the evaluated cases without further testing.\n\n=================================================================\nEND OF REPORT\n================================================================="
+  }
+]

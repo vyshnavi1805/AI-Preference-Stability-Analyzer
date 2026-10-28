@@ -1,0 +1,756 @@
+[
+  {
+    "scenario_id": "DATASET_001",
+    "question": "Statement 1 | The homomorphic image of a cyclic group is cyclic. Statement 2 | The homomorphic image of an Abelian group is Abelian.",
+    "options": [
+      "A) True, True",
+      "B) False, False",
+      "C) True, False",
+      "D) False, True"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "A) True, True"
+  },
+  {
+    "scenario_id": "DATASET_002",
+    "question": "Statement 1 | A factor group of a non-Abelian group is non-Abelian. Statement 2 | If K is a normal subgroup of H and H is a normal subgroup of G, then K is a normal subgroup of G.",
+    "options": [
+      "A) True, True",
+      "B) False, False",
+      "C) True, False",
+      "D) False, True"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) False, False"
+  },
+  {
+    "scenario_id": "DATASET_003",
+    "question": "Statement 1 | Every field is also a ring. Statement 2 | Every ring has a multiplicative identity.",
+    "options": [
+      "A) True, True",
+      "B) False, False",
+      "C) True, False",
+      "D) False, True"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "C) True, False"
+  },
+  {
+    "scenario_id": "DATASET_004",
+    "question": "Statement 1 | Every permutation is a cycle. Statement 2 | Every cycle is a permutation.",
+    "options": [
+      "A) True, True",
+      "B) False, False",
+      "C) True, False",
+      "D) False, True"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "D) False, True"
+  },
+  {
+    "scenario_id": "DATASET_005",
+    "question": "Find the degree for the given field extension Q(sqrt(2), sqrt(3)) over Q.",
+    "options": [
+      "A) 0",
+      "B) 4",
+      "C) 2",
+      "D) 6"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) 4"
+  },
+  {
+    "scenario_id": "DATASET_006",
+    "question": "Find the degree for the given field extension Q(sqrt(2)*sqrt(3)) over Q.",
+    "options": [
+      "A) 0",
+      "B) 4",
+      "C) 2",
+      "D) 6"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "C) 2"
+  },
+  {
+    "scenario_id": "DATASET_007",
+    "question": "Find the characteristic of the ring Z_3 x Z_3.",
+    "options": [
+      "A) 0",
+      "B) 3",
+      "C) 12",
+      "D) 30"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) 3"
+  },
+  {
+    "scenario_id": "DATASET_008",
+    "question": "Find the characteristic of the ring Z x Z.",
+    "options": [
+      "A) 0",
+      "B) 3",
+      "C) 12",
+      "D) 30"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "A) 0"
+  },
+  {
+    "scenario_id": "DATASET_009",
+    "question": "Find the generator for the finite field Z_7.",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "C) 3"
+  },
+  {
+    "scenario_id": "DATASET_010",
+    "question": "Find the generator for the finite field Z_11.",
+    "options": [
+      "A) 1",
+      "B) 2",
+      "C) 3",
+      "D) 4"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) 2"
+  },
+  {
+    "scenario_id": "DATASET_011",
+    "question": "The set of all nth roots of unity under multiplication of complex numbers form a/an",
+    "options": [
+      "A) semi group with identity",
+      "B) commutative semigroups with identity",
+      "C) group",
+      "D) abelian group"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "D) abelian group"
+  },
+  {
+    "scenario_id": "DATASET_012",
+    "question": "Let G denoted the set of all n x n non-singular matrices with rational numbers as entries. Then under multiplication G is a/an",
+    "options": [
+      "A) subgroup",
+      "B) finite abelian group",
+      "C) infinite, non abelian group",
+      "D) ininite, abelian"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "C) infinite, non abelian group"
+  },
+  {
+    "scenario_id": "DATASET_013",
+    "question": "Which of the following statements is true?",
+    "options": [
+      "A) Every equivalence relation is a partial-ordering relation.",
+      "B) Number of relations form A = {x, y, z} to B= (1, 2), is 64.",
+      "C) Empty relation _ is reflexive",
+      "D) Properties of a relation being symmetric and being un-symmetric are negative of each other."
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Number of relations form A = {x, y, z} to B= (1, 2), is 64."
+  },
+  {
+    "scenario_id": "DATASET_014",
+    "question": "Which practice best reduces the risk of SQL injection in a web application?",
+    "options": [
+      "A) Concatenate user input directly into SQL",
+      "B) Use parameterized queries",
+      "C) Store database passwords in source code",
+      "D) Disable input validation"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Use parameterized queries"
+  },
+  {
+    "scenario_id": "DATASET_015",
+    "question": "What is the primary purpose of a cryptographic hash function in integrity checking?",
+    "options": [
+      "A) To recover the original plaintext",
+      "B) To produce a fixed-size digest for comparison",
+      "C) To encrypt data with a public key",
+      "D) To compress files without loss"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) To produce a fixed-size digest for comparison"
+  },
+  {
+    "scenario_id": "DATASET_016",
+    "question": "In supervised learning, what does a labeled training example contain?",
+    "options": [
+      "A) Only an input with no target",
+      "B) An input and its target output",
+      "C) Only a model's parameters",
+      "D) A random validation score"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) An input and its target output"
+  },
+  {
+    "scenario_id": "DATASET_017",
+    "question": "What is a common sign that a model is overfitting?",
+    "options": [
+      "A) It performs poorly on training and test data equally",
+      "B) It performs very well on training data but poorly on unseen data",
+      "C) It has no trainable parameters",
+      "D) Its training set contains labels"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) It performs very well on training data but poorly on unseen data"
+  },
+  {
+    "scenario_id": "DATASET_018",
+    "question": "Which data structure follows the last-in, first-out principle?",
+    "options": [
+      "A) Queue",
+      "B) Stack",
+      "C) Priority queue",
+      "D) Undirected graph"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Stack"
+  },
+  {
+    "scenario_id": "DATASET_019",
+    "question": "What is the worst-case time complexity of binary search on a sorted array?",
+    "options": [
+      "A) O(1)",
+      "B) O(log n)",
+      "C) O(n)",
+      "D) O(n log n)"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) O(log n)"
+  },
+  {
+    "scenario_id": "DATASET_020",
+    "question": "If 3x + 5 = 20, what is x?",
+    "options": [
+      "A) 3",
+      "B) 5",
+      "C) 7",
+      "D) 15"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) 5"
+  },
+  {
+    "scenario_id": "DATASET_021",
+    "question": "What is the probability of rolling an even number on a fair six-sided die?",
+    "options": [
+      "A) 1/6",
+      "B) 1/3",
+      "C) 1/2",
+      "D) 2/3"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "C) 1/2"
+  },
+  {
+    "scenario_id": "DATASET_022",
+    "question": "Which measure is generally least affected by an extreme outlier?",
+    "options": [
+      "A) Mean",
+      "B) Median",
+      "C) Range",
+      "D) Variance"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Median"
+  },
+  {
+    "scenario_id": "DATASET_023",
+    "question": "If two events are independent, which equation expresses that independence?",
+    "options": [
+      "A) P(A and B) = P(A) + P(B)",
+      "B) P(A and B) = P(A)P(B)",
+      "C) P(A) = P(B) always",
+      "D) P(A or B) = 0"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) P(A and B) = P(A)P(B)"
+  },
+  {
+    "scenario_id": "DATASET_024",
+    "question": "Which organelle is primarily responsible for ATP production through oxidative phosphorylation?",
+    "options": [
+      "A) Golgi apparatus",
+      "B) Mitochondrion",
+      "C) Lysosome",
+      "D) Nucleolus"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Mitochondrion"
+  },
+  {
+    "scenario_id": "DATASET_025",
+    "question": "Which molecule carries genetic information in most living organisms?",
+    "options": [
+      "A) ATP",
+      "B) DNA",
+      "C) Cellulose",
+      "D) Hemoglobin"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) DNA"
+  },
+  {
+    "scenario_id": "DATASET_026",
+    "question": "Which type of bond involves the sharing of electron pairs between atoms?",
+    "options": [
+      "A) Ionic bond",
+      "B) Covalent bond",
+      "C) Metallic bond only",
+      "D) Hydrogen bond"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Covalent bond"
+  },
+  {
+    "scenario_id": "DATASET_027",
+    "question": "A solution with pH 3 is how many times more acidic in hydrogen-ion concentration than a solution with pH 5?",
+    "options": [
+      "A) 2 times",
+      "B) 10 times",
+      "C) 100 times",
+      "D) 1000 times"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "C) 100 times"
+  },
+  {
+    "scenario_id": "DATASET_028",
+    "question": "Ignoring air resistance, what happens to the acceleration of a freely falling object near Earth's surface?",
+    "options": [
+      "A) It steadily increases with speed",
+      "B) It is approximately constant",
+      "C) It is zero at the highest point only",
+      "D) It depends on the object's mass"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) It is approximately constant"
+  },
+  {
+    "scenario_id": "DATASET_029",
+    "question": "Which quantity is conserved in an isolated system during an elastic collision?",
+    "options": [
+      "A) Kinetic energy only, among these choices",
+      "B) Momentum only, among these choices",
+      "C) Both momentum and kinetic energy",
+      "D) Neither momentum nor kinetic energy"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "C) Both momentum and kinetic energy"
+  },
+  {
+    "scenario_id": "DATASET_030",
+    "question": "What primarily causes the phases of the Moon as observed from Earth?",
+    "options": [
+      "A) Earth's shadow falling on the Moon every week",
+      "B) Changes in the Moon's own light output",
+      "C) Changing portions of the Moon's sunlit half being visible from Earth",
+      "D) Changes in the Sun's distance from Earth"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "C) Changing portions of the Moon's sunlit half being visible from Earth"
+  },
+  {
+    "scenario_id": "DATASET_031",
+    "question": "If demand increases while supply remains unchanged, what usually happens to the equilibrium price?",
+    "options": [
+      "A) It falls",
+      "B) It rises",
+      "C) It remains exactly zero",
+      "D) It becomes unrelated to quantity"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) It rises"
+  },
+  {
+    "scenario_id": "DATASET_032",
+    "question": "Gross domestic product (GDP) measures the market value of what?",
+    "options": [
+      "A) All intermediate goods ever produced",
+      "B) Final goods and services produced within a country over a period",
+      "C) Only exports produced by citizens abroad",
+      "D) All financial transactions, including asset resales"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Final goods and services produced within a country over a period"
+  },
+  {
+    "scenario_id": "DATASET_033",
+    "question": "A company discovers a product defect that could harm customers. Which action best reflects responsible ethical practice?",
+    "options": [
+      "A) Hide the information until complaints appear",
+      "B) Disclose the risk and take appropriate corrective action",
+      "C) Delete internal reports",
+      "D) Blame customers without investigating"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Disclose the risk and take appropriate corrective action"
+  },
+  {
+    "scenario_id": "DATASET_034",
+    "question": "Which statement is logically equivalent to 'If P, then Q'?",
+    "options": [
+      "A) If Q, then P",
+      "B) If not P, then not Q",
+      "C) If not Q, then not P",
+      "D) P and not Q"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "C) If not Q, then not P"
+  },
+  {
+    "scenario_id": "DATASET_035",
+    "question": "A speaker rejects a proposal by attacking the character of the person who proposed it. Which fallacy is this?",
+    "options": [
+      "A) Ad hominem",
+      "B) Straw man",
+      "C) False dilemma",
+      "D) Slippery slope"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "A) Ad hominem"
+  },
+  {
+    "scenario_id": "DATASET_036",
+    "question": "In classical utilitarianism, an action is typically evaluated primarily by its:",
+    "options": [
+      "A) Conformity to tradition",
+      "B) Consequences for overall well-being",
+      "C) Consistency with the actor's status",
+      "D) Ability to avoid every rule"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Consequences for overall well-being"
+  },
+  {
+    "scenario_id": "DATASET_037",
+    "question": "In sociology, socialization refers primarily to the process by which people:",
+    "options": [
+      "A) Inherit genetic traits",
+      "B) Learn the norms and values of their society",
+      "C) Move between geographic locations",
+      "D) Formally elect political leaders"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Learn the norms and values of their society"
+  },
+  {
+    "scenario_id": "DATASET_038",
+    "question": "The printing press associated with Johannes Gutenberg contributed most directly to which development in Europe?",
+    "options": [
+      "A) The end of all religious conflict",
+      "B) Wider and faster dissemination of written material",
+      "C) The immediate abolition of monarchies",
+      "D) The invention of the steam engine"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Wider and faster dissemination of written material"
+  },
+  {
+    "scenario_id": "DATASET_039",
+    "question": "Which line of latitude is defined as 0 degrees?",
+    "options": [
+      "A) Tropic of Cancer",
+      "B) Equator",
+      "C) Arctic Circle",
+      "D) Prime Meridian"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Equator"
+  },
+  {
+    "scenario_id": "DATASET_040",
+    "question": "Which principle generally means that states have legal equality regardless of their size or power?",
+    "options": [
+      "A) State sovereignty equality",
+      "B) Universal annexation",
+      "C) Unrestricted intervention",
+      "D) Territorial expansion"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "A) State sovereignty equality"
+  },
+  {
+    "scenario_id": "DATASET_041",
+    "question": "The principle that a person is presumed innocent until proven guilty is primarily associated with:",
+    "options": [
+      "A) Due process and criminal justice",
+      "B) Strict liability in every civil case",
+      "C) Retroactive punishment",
+      "D) Executive privilege"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "A) Due process and criminal justice"
+  },
+  {
+    "scenario_id": "DATASET_042",
+    "question": "Which nutrient is the body's main immediate source of energy in ordinary metabolism?",
+    "options": [
+      "A) Carbohydrate",
+      "B) Vitamin C",
+      "C) Water",
+      "D) Mineral salts"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "A) Carbohydrate"
+  },
+  {
+    "scenario_id": "DATASET_043",
+    "question": "Which change is commonly associated with normal aging, though it varies among individuals?",
+    "options": [
+      "A) Improved near vision in all people",
+      "B) Reduced elasticity of the lens of the eye",
+      "C) Complete loss of immune function",
+      "D) Universal loss of long-term memory"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Reduced elasticity of the lens of the eye"
+  },
+  {
+    "scenario_id": "DATASET_044",
+    "question": "Under accrual accounting, revenue is generally recognized when it is:",
+    "options": [
+      "A) Always received in cash",
+      "B) Earned, subject to the applicable accounting rules",
+      "C) Budgeted for next year",
+      "D) Approved verbally by any employee"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Earned, subject to the applicable accounting rules"
+  },
+  {
+    "scenario_id": "DATASET_045",
+    "question": "Which management activity involves comparing actual performance with established goals and correcting deviations?",
+    "options": [
+      "A) Planning",
+      "B) Organizing",
+      "C) Controlling",
+      "D) Staffing"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "C) Controlling"
+  },
+  {
+    "scenario_id": "DATASET_046",
+    "question": "Market segmentation is the process of:",
+    "options": [
+      "A) Offering every customer exactly the same product",
+      "B) Dividing a broad market into groups with relevant shared characteristics",
+      "C) Eliminating all competitors",
+      "D) Setting price without considering customers"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Dividing a broad market into groups with relevant shared characteristics"
+  },
+  {
+    "scenario_id": "DATASET_047",
+    "question": "The central goal of crisis communication is to:",
+    "options": [
+      "A) Suppress all verified information indefinitely",
+      "B) Communicate promptly, accurately, and consistently with affected audiences",
+      "C) Avoid acknowledging stakeholder concerns",
+      "D) Replace factual updates with advertising"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Communicate promptly, accurately, and consistently with affected audiences"
+  },
+  {
+    "scenario_id": "DATASET_048",
+    "question": "Which measurement is commonly used to estimate oxygen saturation noninvasively?",
+    "options": [
+      "A) Pulse oximetry",
+      "B) Electroencephalography",
+      "C) Spirometry alone",
+      "D) Bone densitometry"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "A) Pulse oximetry"
+  },
+  {
+    "scenario_id": "DATASET_049",
+    "question": "Viruses require which resource from a host cell to replicate?",
+    "options": [
+      "A) A host cell's machinery",
+      "B) Independent ribosomes in every virus particle",
+      "C) A complete independent metabolism",
+      "D) A cell wall made of peptidoglycan"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "A) A host cell's machinery"
+  },
+  {
+    "scenario_id": "DATASET_050",
+    "question": "For a fixed resistance, if voltage across a resistor doubles, what happens to the current according to Ohm's law?",
+    "options": [
+      "A) It halves",
+      "B) It doubles",
+      "C) It stays unchanged",
+      "D) It becomes zero"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) It doubles"
+  },
+  {
+    "scenario_id": "DATASET_051",
+    "question": "Which law relates the induced electromotive force in a circuit to the rate of change of magnetic flux?",
+    "options": [
+      "A) Faraday's law",
+      "B) Hooke's law",
+      "C) Boyle's law",
+      "D) Kepler's first law"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "A) Faraday's law"
+  },
+  {
+    "scenario_id": "DATASET_052",
+    "question": "In classical conditioning, a previously neutral stimulus becomes capable of eliciting a response after it is:",
+    "options": [
+      "A) Repeatedly paired with an unconditioned stimulus",
+      "B) Punished in every context",
+      "C) Removed from memory",
+      "D) Presented only after the response disappears"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "A) Repeatedly paired with an unconditioned stimulus"
+  },
+  {
+    "scenario_id": "DATASET_053",
+    "question": "Which question is most directly a normative ethical question?",
+    "options": [
+      "A) What percentage of people voted yesterday?",
+      "B) What should a person do when duties conflict?",
+      "C) How many people live in the city?",
+      "D) What is the chemical formula of salt?"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) What should a person do when duties conflict?"
+  },
+  {
+    "scenario_id": "DATASET_054",
+    "question": "Which property of a database transaction means that either all its operations occur or none do?",
+    "options": [
+      "A) Atomicity",
+      "B) Availability",
+      "C) Abstraction",
+      "D) Locality"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "A) Atomicity"
+  },
+  {
+    "scenario_id": "DATASET_055",
+    "question": "Which protocol is commonly used to securely access a remote command-line shell?",
+    "options": [
+      "A) FTP",
+      "B) SSH",
+      "C) Telnet without encryption",
+      "D) HTTP"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) SSH"
+  },
+  {
+    "scenario_id": "DATASET_056",
+    "question": "What is the derivative of x² with respect to x?",
+    "options": [
+      "A) x",
+      "B) 2x",
+      "C) x²",
+      "D) 2"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) 2x"
+  },
+  {
+    "scenario_id": "DATASET_057",
+    "question": "Which document begins with the words 'We the People'?",
+    "options": [
+      "A) The Declaration of Independence",
+      "B) The United States Constitution",
+      "C) The Emancipation Proclamation",
+      "D) The Articles of Confederation"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) The United States Constitution"
+  },
+  {
+    "scenario_id": "DATASET_058",
+    "question": "In cybersecurity, the principle of least privilege means that a user or service should receive:",
+    "options": [
+      "A) Administrator access by default",
+      "B) Only the permissions needed for its task",
+      "C) Permanent access to every system",
+      "D) The same permissions as every other user"
+    ],
+    "context": "",
+    "question_style": "decision",
+    "reference_answer": "B) Only the permissions needed for its task"
+  }
+]

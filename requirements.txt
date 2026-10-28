@@ -1,0 +1,6 @@
+ollama==0.6.2
+networkx==3.6.1
+pandas==3.0.5
+numpy==2.5.2
+streamlit==1.63.0
+plotly==7.0.0
